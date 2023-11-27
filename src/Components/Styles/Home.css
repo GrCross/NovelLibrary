@@ -1,0 +1,52 @@
+h1 {
+	color: white;
+	font-style: italic;
+}
+.homeContainer {
+	display: flex;
+	justify-content: space-between;
+	padding: 5%;
+	flex-wrap: wrap;
+	column-gap: 20px;
+}
+.tagsContainer {
+	display: flex;
+	overflow: hidden;
+	flex-wrap: nowrap;
+	margin: 2%;
+	padding: 2%;
+	background-color: rgb(72, 66, 73);
+	border-radius: 7%;
+}
+.genereButton {
+	padding: auto;
+	margin-left: 1vh;
+	text-wrap: nowrap;
+	border: 0;
+	background-color: rgb(165, 156, 223);
+	border-radius: 15%;
+	text-shadow: 5%;
+	cursor: pointer;
+	font-size: larger;
+	color: white;
+}
+.recomendedWorks {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	padding: 3%;
+	overflow: auto;
+}
+.scrollButton-left {
+	display: flex;
+	position: absolute;
+	border-radius: 100%;
+	border-style: none;
+}
+.scrollButton-right {
+	display: flex;
+	position: absolute;
+	margin-left: 80%;
+	border-radius: 100%;
+	border-style: none;
+}

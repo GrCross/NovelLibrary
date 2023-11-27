@@ -1,0 +1,9 @@
+.novelContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.descriptionText {
+	color: white;
+	padding: 4%;
+}

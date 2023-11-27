@@ -1,0 +1,22 @@
+.searchContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: rgb(72, 66, 73);
+	margin-bottom: 5%;
+}
+
+.novels_container {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 3%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}

@@ -1,0 +1,57 @@
+.novel_card {
+	font-family: "Raleway", sans-serif;
+	position: relative;
+	padding: auto;
+	margin-left: 2vh;
+	width: 20%;
+}
+.novelTitle {
+	text-decoration: none;
+	color: white;
+}
+
+.image-container {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+}
+.novelImage {
+	border-radius: 5%;
+	position: relative;
+	vertical-align: middle;
+	left: 50%;
+	transform: translate(-50%);
+	width: 100%;
+}
+
+.heart-button {
+	position: absolute;
+	display: block;
+	appearance: none;
+	background: transparent;
+	border: 0;
+	color: #fff;
+	right: 0%;
+	bottom: 6%;
+	cursor: pointer;
+	width: 15%;
+	height: 10%;
+}
+
+.heart-shape-active {
+	block-size: 100%;
+	fill: #de280c;
+
+	inset: 0;
+	overflow: visible;
+	position: absolute;
+}
+.heart-shape-deactive {
+	block-size: 100%;
+	fill: #fcfcfc;
+
+	inset: 0;
+	overflow: visible;
+	position: absolute;
+	stroke: black;
+}

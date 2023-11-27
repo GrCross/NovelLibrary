@@ -1,0 +1,22 @@
+Nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 10vh;
+	background-color: rgba(85, 70, 70, 1);
+	color: white;
+}
+
+.nav-links {
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-link {
+	width: 40%;
+	color: white;
+	text-decoration: none;
+}
